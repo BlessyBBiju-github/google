@@ -8,10 +8,13 @@ body {
 	background-color: white;
 }
 
-#content {
-	min-height: 100%
+#content1{
+	min-height: 100%;
+       
 }
-
+#content1 img{
+    margin:70px 0px 0px 450px;
+}
 ul {
 	display: flex;
 	align-items: right;
@@ -110,12 +113,12 @@ a:hover {
 }
 
 .icons {
-	width: 25px;
+	width: 30px;
 }
 
 .mic {
 	width: 14px;
-	margin-left: 370px;
+	margin-left: 400px;
 }
 
 
@@ -141,17 +144,15 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	margin-top: 10px;
+        
 }
 
-.languages {
-	display: flex;
-	font-size: small;
-}
+.lang a{
+font-size:12px;
+margin-left:8px;
+color:blue;
+ }
 
-.languages span {
-	margin-left: 6px;
-       
-}
 
 .footerBox {
 	margin-top: 240px;
